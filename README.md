@@ -2,8 +2,6 @@
 
 A Rss Feed Reader.
 
-Hosted at [feedreader-alafazam.rhcloud.com](feedreader-alafazam.rhcloud.com).
-
 Frameworks and Libraries that I have used.
 
 Front End  
