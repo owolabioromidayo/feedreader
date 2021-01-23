@@ -1,5 +1,5 @@
 function _g_(it) {
-    var out = '<div class="collapsible-header collection-item active avatar"> <a href=\'' + (it.entryLink) + '\' id=\'entryId\'> <i class="material-icons small">label_outline</i> </a> <a href=\'' + (it.authorUri) + '\' id="authorName" class="waves-effect waves-red btn-flat">' + (it.authorName) + '</a> <span class="badge" id="hideBadge">Hide</span><span id="categoryTerm" class="badge"> <a href=\'' + (it.feedBaseUrl + it.categoryLabel) + '\' class="waves-effect waves-red btn-flat">' + (it.categoryTerm) + '</a> </span> <div class="entryTitle title">' + (it.entryTitle) + '</div> </div> <div id="content_body" class="collapsible-body contains_table"> ' + (it.contents_) + '</div>';
+    var out = '<div class="collapsible-header collection-item active avatar"> <a href=\'' + (it.entryLink) + '\' id=\'entryId\'> <i class="material-icons small">label_outline</i> </a> <a href=\'' + (it.authorUri) + '\' id="authorName" class="waves-effect waves-red btn-flat">' + (it.authorName) + '</a> <span class="badge" id="hideBadge">Hide</span><span id="categoryTerm" class="badge"> <a href=\'' + (it.feedBaseUrl + it.categoryLabel) + '\' class="waves-effect waves-red btn-flat">' + (it.categoryTerm) + '</a> </span> <div class="entryTitle title">' + (it.entryTitle) + '</div> </div> <div id="content_body" class="collapsible-body contains_table make_visible"> ' + (it.contents_) + '</div>';
     return out;
 }
 
@@ -8,11 +8,9 @@ console.log("hello from the other side");
 
 function toggle_display(e) {
     if ($(this).html() == "Hide") {
-        $(this).parent().find('.entryTitle').hide();
         $(this).parent().parent().find("div#content_body").removeClass('collapsible-body').hide();
         $(this).html("Show");
     } else {
-        $(this).parent().find('.entryTitle').show();
         $(this).parent().parent().find("div#content_body").addClass('collapsible-body').show();
         $(this).html("Hide");
     }

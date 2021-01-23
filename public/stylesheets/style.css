@@ -76,8 +76,11 @@ a.btn-flat{
     color:#03a9f4;
 }
 
+.make_visible{
+	display: block;
+}
+
 #content_body{
-	display:block !important;
 	background-color: #1e1f1e !important;
 	border-color: #323435 !important;
 }
