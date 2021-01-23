@@ -2,15 +2,9 @@
 
 An RSS Feed Reader.
 
-<<<<<<< HEAD
 Frameworks and Libraries used.
 
-Frontend  
-=======
-Frameworks and Libraries that I have used.
-
 Front End  
->>>>>>> 50acfd1b9d674edfe50921425afc8992f32b3398
 [materializecss.com](materializecss.com)
 
 Backend
@@ -33,9 +27,7 @@ Have a look.
 
 ![Rss Feed Reader][screenshot]
 
-<<<<<<< HEAD
-[screenshot]: https://raw.githubusercontent.com/Alafazam/feedreader/master/screenshot.png "Rss Feed Reader"
 
-=======
-[screenshot]: https://raw.githubusercontent.com/Alafazam/feedreader/master/feedrea.jpg "Rss Feed Reader"
->>>>>>> 50acfd1b9d674edfe50921425afc8992f32b3398
+[screenshot]: https://raw.githubusercontent.com/owolabioromidayo/feedreader/master/screenshot.png "Rss Feed Reader"
+
+
