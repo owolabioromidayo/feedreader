@@ -1,14 +1,17 @@
+nav{
+	background-color: #551b1d;
+	box-shadow: none;
+}
+
 body{
-	background-color: #424040;
+	background-color: #424040; 
+	border-color: #323435 !important;
 }
-nav {
-     background
-     box-shadow:none;
-}
+
 nav ul li {
     transition: background-color .3s;
     font-size: 1rem;
-    color: #000;
+    color: #ffffff;
     display: inline-block;
     padding: 0 15px;
     cursor: pointer;
@@ -17,6 +20,26 @@ nav ul li:hover {
     background-color: rgba(0,0,0,0.1);
 }
 
+
+#daLabelDiv, #feedSubtitleDiv{
+	text-align: center;
+}
+
+.collapsible{
+	border-color: gray !important;
+}
+
+.contains_table{
+	color: #fff !important;
+	border: none
+	background-color: ##1e1f1e !important;
+	border-color: #323435 !important;
+}
+.collapsible-header{
+	background-color: #1e1f1e !important;
+	color: #fff !important;
+	border-color: #323435 !important;
+}
 
 .input_padding_ {
     padding-left: 10px;
@@ -53,8 +76,10 @@ a.btn-flat{
     color:#03a9f4;
 }
 
-#collapsible-body{
-	display:'block'
+#content_body{
+	display:block !important;
+	background-color: #1e1f1e !important;
+	border-color: #323435 !important;
 }
 
 #content_body table tbody tr td:first-child{

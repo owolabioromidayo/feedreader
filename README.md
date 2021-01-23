@@ -1,15 +1,13 @@
 # feedread
 
-A Rss Feed Reader.
+An RSS Feed Reader.
 
-Hosted at [feedreader-alafazam.rhcloud.com](feedreader-alafazam.rhcloud.com).
+Frameworks and Libraries used.
 
-Frameworks and Libraries that I have used.
-
-Front End  
+Frontend  
 [materializecss.com](materializecss.com)
 
-For BackEnd  
+Backend
 [express](https://expressjs.com/)
 [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js)
 
@@ -29,4 +27,5 @@ Have a look.
 
 ![Rss Feed Reader][screenshot]
 
-[screenshot]: https://raw.githubusercontent.com/Alafazam/feedreader/master/feedrea.jpg "Rss Feed Reader"
+[screenshot]: https://raw.githubusercontent.com/Alafazam/feedreader/master/screenshot.png "Rss Feed Reader"
+
